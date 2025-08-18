@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #000;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('./images/background.png');
+    padding: 56px 0 75px 0;
+    width: 100%;
+    min-height: 605px;
+    border-bottom: 1px solid #33A8DB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo {
+    width: 268px;
+    height: 268px;
+}
+
+.header-title {
+    font-size: 40px;
+    font-weight: 900;
+    background-image: linear-gradient(to bottom, #33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header-text {
+    width: 510px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.header-button {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 900;
+    background-color: transparent;
+    color: #31A8DD;
+    border: solid 2px #31A8DD;
+    padding: 20px 90px;
+}
+
+.main-title {
+    color: #33A8DB;
+    text-align: center;
+    width: 746px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.main-text {
+    text-align: center;
+    width: 792px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.main-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 64px 0 144px 0;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.about-items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.about-item {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    background-color: #252525;
+    border: solid 1px #33A8DB;
+    border-radius: 57px;
+    width: 535px;
+    padding: 16px 0;
+}
+
+.main-impact {
+    background-image: url("./images/woman-image.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 560px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.impact-title {
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 3px 2px 0px #33A8DB;
+    width: 244px;
+    height: 141px;
+    left: 198px;
+}
+
+.main-community {
+    padding: 76px 0 90px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.main-img {
+    margin-bottom: 8px;
+    width: 659px;
+    height: 429px;
+}
+
+strong {
+    color: #33A8DB;
+}
+
+footer {
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 60px 0 38px 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-logo {
+    width: 310px;
+    height: 44px;
+}
